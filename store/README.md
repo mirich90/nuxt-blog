@@ -1,21 +1,10 @@
-# Блог на NuxtJs.
+# STORE
 
-Проект разрабатывался для закрепления NuxtJs и взаимодействвия его с сервером через API
+**This directory is not required, you can delete it if you don't want to use it.**
 
-- Логин и регистрация пользователей-администраторов блог
-- Написание статей администраторам, комментариев незарегистрированными пользователями
-- Допуск к публикации комментариев администраторами или их удаление, скрытие
-- Автозаполнение SEO статей
-- API на чистом PHP с возможностью сохранять, редактировать, читать данные из базы MySQL (https://github.com/genkoshkarev/api-php-for-nuxt)
+This directory contains your Vuex Store files.
+Vuex Store option is implemented in the Nuxt.js framework.
 
-### Главная страница сайта:
+Creating a file in this directory automatically activates the option in the framework.
 
-![Alt-текст](https://github.com/genkoshkarev/nuxt-js/blob/main/screen_1.PNG?raw=true "Блог-платформа")
-
-### Модерация комментариев из админки сайта:
-
-![Alt-текст](https://github.com/genkoshkarev/nuxt-js/blob/main/screen_2.PNG?raw=true "Блог-платформа")
-
-### Создание постов из админки сайта:
-
-![Alt-текст](https://github.com/genkoshkarev/nuxt-js/blob/main/screen_3.PNG?raw=true "Блог-платформа")
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/vuex-store).
