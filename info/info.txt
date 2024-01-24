@@ -1,0 +1,7 @@
+установка npx create-nuxt-app .
+генерация в статику npm run generate
+запуск npm run dev
+
+установка сасс
+npm install node-sass sass-loader --save-dev
+

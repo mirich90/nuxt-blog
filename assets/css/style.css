@@ -1,0 +1,68 @@
+:root {
+  --color-primary: #9f8f68;
+  --color-secondary: #5485b1;
+  --font-title: "Space Mono", monospace;
+  --font-base: "Inconsolata", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-base);
+}
+*:focus,
+input[type="radio"]:focus + label {
+  outline: 2px dashed var(--color-primary);
+  outline-offset: 2px;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-title);
+}
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+}
+
+.status:before {
+  display: inline-block;
+  content: "\A";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+.status.false {
+  color: red;
+}
+.status.false:before {
+  background: red;
+}
+.status.true {
+  color: green;
+}
+.status.true:before {
+  background: green;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.container.small {
+  max-width: 600px;
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sign {
+  justify-content: center;
+  height: 70vh;
+}
