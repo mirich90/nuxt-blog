@@ -10,12 +10,12 @@
 
 ### Главная страница сайта:
 
-![Alt-текст](https://github.com/mirich90/nuxt-js/blob/main/screen_1.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/nuxt-blog/blob/master/screen_1.png?raw=true "Блог-платформа")
 
 ### Модерация комментариев из админки сайта:
 
-![Alt-текст](https://github.com/mirich90/nuxt-js/blob/main/screen_2.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/nuxt-blog/blob/master/screen_2.png?raw=true "Блог-платформа")
 
 ### Создание постов из админки сайта:
 
-![Alt-текст](https://github.com/mirich90/nuxt-js/blob/main/screen_3.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/nuxt-blog/blob/master/screen_3.png?raw=true "Блог-платформа")
